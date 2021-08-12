@@ -1,0 +1,16 @@
+{
+  "dependencies": {
+    "lodash": "^4.17.21",
+    "nodemon": "^2.0.12",
+    "yargs": "^17.1.0"
+  },
+  "name": "basico",
+  "version": "1.0.0",
+  "main": "mito.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
