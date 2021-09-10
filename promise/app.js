@@ -1,12 +1,13 @@
 let prom = require('./promesa');
 
-prom.calcular(2,9).then((result)=> {
+prom.calcular(0,2).then((result)=> {
     console.log(result);
 }, 
 (error)=> {
     console.log(error);
 });
 
+///Simple promise declaration with synchronous execution.
 /*
 let promise = new Promise((resolve, reject)=> {
     resolve("ETZITO!!!");
