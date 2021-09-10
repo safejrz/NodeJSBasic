@@ -6,11 +6,8 @@ promesa.then((res) => {
     return res.json();
 }).then((json) => {
  console.log(json);
+}
+, (error) => {
+console.log("ERROR: " + error);
 });
 
-
-// fetch('https://api.github.com/users/mitocode21').then((res) => {
-//     return res.json();
-// }).then((json) => {
-//  console.log(json);
-// });
